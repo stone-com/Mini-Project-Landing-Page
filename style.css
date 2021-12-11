@@ -1,0 +1,91 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    text-align: right;
+}
+
+.nav-item {
+    display: inline;
+    background: black;
+    padding: 8px;
+    border-radius: 15%;
+}
+
+a {
+    color: yellow;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+header {
+    background: chartreuse;
+    padding: 5px;
+}
+
+.contactinput {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#contact {
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    border: 10px solid purple;
+    background-image: linear-gradient(red, yellow);
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+#aboutme {
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 5px solid purple;
+    padding: 13px;
+    border-radius: 15px;
+    background: teal;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+}
+
+img {
+    border: 10px solid purple;
+    
+    box-shadow: 10px 5px 5px black;
+}
+
+#footertext {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 17, 255), yellow);
+}
+
+footer {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}

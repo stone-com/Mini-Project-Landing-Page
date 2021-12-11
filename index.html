@@ -5,24 +5,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Stone's awesome page...</title>
+        <title>Stone's page</title>
     </head>
     <body>
         <header>
-           <h1>Stone's webpage</h1>
            <nav>
                <ul>
-                    <li><a href="https://github.com/stone-com">Gthub</a></li>
-                    <li><a href="">Portfolio</a></li>
-               </ul>
-               
+                    <li class='nav-item'><a href="#contact">Contact</a></li>
+                    <li class='nav-item'><a href="https://github.com/stone-com">Github</a></li>
+                    <li class='nav-item'><a href="#">Portfolio</a></li> 
+               </ul>      
            </nav>
         </header>
         <main>
-       
+            <h1>Stone's Website!</h1>
+            <figure>
+            <img src="selfie.jpg" width='200' alt="This is a pic of me" />
+            <figcaption>This is a picture of me.</figcaption>
+            </figure>
+            <hr>
+            <section id='info'>
+                <h2>Info</h2>
+                <p id='aboutme'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cumque odit autem praesentium quis expedita nulla facilis, excepturi recusandae officiis? Officiis ipsam architecto amet! Optio aliquam necessitatibus odit eius doloribus.</p>
+
+            </section>
+            <section id='contact'>
+                <h2>Contact Form</h2>
+                <form>
+                    Name
+                    <input type="text" class='contactinput'>
+                    Email
+                    <input type="text" class='contactinput'>
+                    <input type='submit'>
+                </form>
+            </section>
+            <hr>
         </main>
         <footer>
-
+            <p id='footertext'>2021 Stone Comstock</p>
         </footer>
     </body>
-</html>~
+</html>
